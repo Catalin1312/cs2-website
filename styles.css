@@ -11,6 +11,10 @@ body {
     width: 50px;
 }
 
+img {
+    width: 600px;
+}
+
 a {
     text-decoration: none;
     color: rgb(255, 215, 0);
@@ -43,24 +47,49 @@ ul {
     display: flex;
     background-color: #2f4f4f;
     align-items: center;
-    gap: 16px;
-    padding: 18px;
+    gap: 48px;
+    padding: 80px;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
+    align-items: start;
+    gap: 10px;
 }
 
 .text {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
-    text-align: center;
+    text-align: left;
 }
 
 .description {
     font-size: 18px;
     color: #f9faf8;
-    text-align: center;
+    text-align: left;
+}
+
+.info-button {
+background-color: rgb(255, 215, 0);
+border-radius: 6px;
+font-size: 18px;
+padding: 5px 30px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-side {
+    display: flex;
+    align-items: center;
+}
+
+.picture1, .picture2, .picture3, .picture4 {
+    width: 200px;
+    height: 200px;
 }
