@@ -1,7 +1,6 @@
 body {
     height: 100px;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -12,7 +11,7 @@ body {
 }
 
 img {
-    width: 600px;
+    width: 800px;
 }
 
 a {
@@ -82,14 +81,38 @@ padding: 5px 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: lightgray;
 }
 
 .top-side {
     display: flex;
     align-items: center;
+    font-size: 48px;
+    padding: 18px;
 }
 
 .picture1, .picture2, .picture3, .picture4 {
     width: 200px;
     height: 200px;
+    border-radius: 8px;
+    border: 3px solid yellow;
+}
+
+.containers {
+    display: flex;
+    gap: 48px;
+    padding: 18px;
+}
+
+.container1, .container2, .container3, .container4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.text1, .text2, .text3, .text4 {
+   
 }
